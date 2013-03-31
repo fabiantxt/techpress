@@ -1,3 +1,17 @@
+/* 
+
+Theme Name: TechPress
+Theme URI: http://nodogeek.com/
+Description: TechPress es una plantilla gratuita diseñada para un blog de tecnología aunque se puede modificar para cualquier otro tema, tiene los archivos mínimos para que funcione. 
+Author: Fabian Luna
+Author URI: http://fabian.mx
+Version: 0.6
+License: Lo puedes usar como gustes y modificar todo lo que quieras a cambio pido únicamente un post en tu blog que mencione a http://nodogeek.com como autor de la plantilla. 
+Tags: full-width-template, right-sidebar
+
+*/
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -50,21 +64,25 @@ table {
 /* Ahora si */
 
 body{
-	font-family:Arial;
+	font-family:'Open Sans', sans-serif;
 	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5em;
 }
 
 header{
 	margin:0 auto 0 auto;
-	width: 80%;
+	width: 1000px;
 }
 
 h1, h2, h3, h4{
-	font-family: "Times New Roman";
+	font-family: 'Sanchez';
 }
 
 h1{
 	font-size:2.5em;
+	font-weight: 700;
+	padding: 1.3em 0;
 }
 
 h2{
@@ -73,4 +91,8 @@ h2{
 
 h3{
 	font-size: 1.3em;
+}
+
+h4{
+	font-size: 0.8em;
 }
