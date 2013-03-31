@@ -64,16 +64,13 @@ table {
 /* Ahora si */
 
 body{
+	color:#222;
 	font-family:'Open Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.5em;
 }
 
-header{
-	margin:0 auto 0 auto;
-	width: 1000px;
-}
 
 h1, h2, h3, h4{
 	font-family: 'Sanchez';
@@ -95,4 +92,30 @@ h3{
 
 h4{
 	font-size: 0.8em;
+}
+header{
+	margin:30px 0;
+}
+
+#destacadas{
+	margin:0 auto 0 auto;
+	width: 980px;
+}
+
+#listado-post{
+width: 620px;
+}
+
+#listado-post, #sidebar {
+	display:inline-block;
+	vertical-align: top;
+}
+
+#sidebar{
+	width: 336px;
+}
+
+.contenedor{
+	margin:0 auto 0 auto;
+	width: 980px;	
 }
