@@ -338,7 +338,7 @@ padding-top:1em;
 }
 
 #facebook{
-	padding: 10px 10px 10px 70px;
+	padding: 12px 10px 10px 70px;
 	background-image: url(img/facebook.png);
 	background-repeat: no-repeat;
 	background-position: 6% 50%;
@@ -354,7 +354,7 @@ padding-top:1em;
 }
 
 #instagram{
-	padding: 10px 10px 10px 70px;
+	padding: 14px 10px 10px 70px;
 	background-image: url(img/instagram.png);
 	background-repeat: no-repeat;
 	background-position: 6% 50%;
@@ -460,7 +460,7 @@ padding-top:1em;
 
 .meta-social{
 	margin: 10px 0px 5px 0;
-	padding: 0.5em;
+	padding: 0.7em;
 	font-size: 13px;
 	height: 3em;
 	background-color: #eaeaea;
