@@ -110,10 +110,11 @@ header{
 nav {
 	text-transform: uppercase;
 	font-size: 0.8em;
+	font-weight: 700;
 }
 
 nav ul{
-	padding: 1em 0;
+	padding: 0 0 1.5em 0;
 }
 
 nav ul li{
@@ -122,9 +123,18 @@ nav ul li{
 }
 
 nav ul li a{
-	border:1px solid #eaeaea;
+	background-color: #eaeaea;
 	margin:0;
-	padding: 0.3em 0.7em;
+	padding: 0.7em 0.9em;
+	text-decoration: none;
+	color:black;
+}
+
+#adsense-header{
+	float:right;
+	height: 90px;
+	margin-top: 1em;
+	width: 728px;
 }
 
 #buscador{
