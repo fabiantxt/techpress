@@ -61,6 +61,16 @@ table {
 	border-spacing: 0;
 }
 
+/* box-sizing */
+
+*{	
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-o-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+
 /* Ahora si */
 
 body{
@@ -128,7 +138,7 @@ nav ul li a{
 	margin:0;
 	padding: 0.7em 0.9em;
 	text-decoration: none;
-	color:black;
+	color:#424242;
 }
 
 nav ul li a:hover{
@@ -173,21 +183,42 @@ nav ul li a:hover{
 
 #destacadas ul li{
 	display: inline-block;
-	margin:0;
-	padding:.3em;
+	height: 317px;
+	margin: 0 4px;
 	vertical-align: top;
-	width: 232px;
+	width: 233px;
+	border: solid 1px #eaeaea;
+	/*
+	-moz-box-shadow:    0 0 10px #eaeaea;
+   	-webkit-box-shadow: 0 0 10px #eaeaea;
+   	box-shadow:         0 0 10px #eaeaea;
+   	*/
 }
 
 #destacadas ul li img{
+background-color: #eaeaea;
 }
 
 #destacadas ul li a{
 	display: inline;
+	text-decoration: none;
+	color:#424242;
+}
+
+#destacadas ul li a:hover{
+	color:#3299bb;
+}
+
+
+#destacadas h3{
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: 0 0.5em;
 }
 
 #listado-post{
 width: 620px;
+padding-top:1em;
 }
 
 #listado-post, #sidebar {
@@ -203,3 +234,74 @@ width: 620px;
 	margin:0 auto 0 auto;
 	width: 980px;	
 }
+
+.contenedor h2{
+	line-height: 1.2em;
+	padding:0.5em 0 0 0;
+	font-size: 2em;
+}
+
+.extracto img{
+	width: 200px;
+	display:inline-block;
+	vertical-align: top;
+	padding: 0;
+}
+
+.extracto p{
+	width: 415px;
+	display:inline-block;
+	vertical-align: top;
+	padding: 0 1em;
+}
+
+.extracto a{
+	text-decoration: none;
+	color:#424242;
+}
+
+.seguir{
+	color:#424242;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.extracto a:hover{
+	color:#3299bb;
+}
+
+.meta{
+	margin: 5px 15px 5px 0;
+	padding: 0.5em;
+	font-size: 13px;
+
+}
+
+.meta a{
+	text-decoration: none;
+	color: #424242;
+}
+
+.meta a:hover{
+	color: #3299bb;
+}
+
+.meta img{
+	width: 16px;
+	height:16px;
+	padding: 0;
+}
+.meta span{
+	float: right;
+}
+
+
+#social li{
+  display: block;
+  float: left;
+}
+
+
+
+
