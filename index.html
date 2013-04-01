@@ -13,13 +13,13 @@
 <body>
 	<header class="contenedor">
 		<h1 class="logo">TechPress</h1>
-		<div id="buscador" class="input">
+		<nav id="categorias">
+	 		<div id="buscador" class="input">
 				<form method="get" id="searchform" action="http://nodogeek.com/">
           			<input type="text" value="" name="s" id="s" placeholder="Escribe tu búsqueda y da enter...">
           			<!-- <button id="searchsubmit">Buscar</button>  -->
      			</form>
-		</div>
-		<nav class="categorias">
+			</div>
 	 		<ul>
 	 			<li><a href="#">Aplicaciones web</a></li>
 				<li><a href="#">Diseño</a></li>
@@ -32,12 +32,25 @@
 			</ul>
 		</nav>
 	</header>
-	<section id="destacadas">
-		<h3>Notas destacadas</h3>
-		<a href="#"><h3>‘Diputados’, la app que el Congreso no quiere que veas</h3></a>
-		<a href="#"><h3>Control De Ciber 1.541b - cbm.com.ar</h3></a>
-		<a href="#"><h3>Resetear La Impresora Xerox Phaser 3140 Sin Perder La Garantia</h3></a>
-		<a href="#"><h3>Issuu - Crea Tu Propia Revista Virtual Con Un Pdf</h3></a>
+	<section id="destacadas" class="contenedor">
+		<ul>
+			<li>
+				<a href="#"><img src="img/destacada.jpg" />
+				<h3>‘Diputados’, la app que el Congreso no quiere que veas</h3></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/destacada.jpg" />
+				<h3>Control De Ciber 1.541b - cbm.com.ar</h3></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/destacada.jpg" />
+				<h3>Resetear La Impresora Xerox Phaser 3140 Sin Perder La Garantia</h3></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/destacada.jpg" />
+				<h3>Issuu - Crea Tu Propia Revista Virtual Con Un Pdf</h3></a>
+			</li>
+		</ul>
 	</section>
 	
 	<section class="contenedor">
@@ -127,13 +140,11 @@
 	<footer class="contenedor">
     	<p>Algunos derechos reservados para <a href="http://tiposmoviles.mx">tipos.móviles</a> - Con el poder de <a href="http://wordpress.org">Wordpress</a>.</p>
     	<a href="#">Ir hasta arriba</a>
-    	<nav class="paginas">
-	 		<ul>
-	 			<li><a href="#">Acerca de</a></li>
-				<li><a href="#">Contacto</a></li>
-				<li><a href="#">Mapa web</a></li>
-			</ul>
-		</nav>
+	 	<ul id="nav-paginas">	 			
+	 		<li><a href="#">Acerca de</a></li>
+			<li><a href="#">Contacto</a></li>
+			<li><a href="#">Mapa web</a></li>
+		</ul>
 	</footer>
 </body>
 </html>
