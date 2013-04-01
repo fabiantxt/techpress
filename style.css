@@ -125,7 +125,7 @@ nav {
 }
 
 nav ul{
-	padding: 0 0 1.5em 0;
+	padding: 0.5em 0 2.5em 0;
 }
 
 nav ul li{
@@ -144,23 +144,20 @@ nav ul li a{
 nav ul li a:hover{
 	background-color: #3299bb;
 	color:white;
-	/*
 	-moz-box-shadow:    inset 0 0 7px #363636;
    	-webkit-box-shadow: inset 0 0 7px #363636;
-   	box-shadow:         inset 0 0 7px #363636;
-   	*/
+   	box-shadow:         inset 0 1px 7px #363636;
 }
 
 #adsense-header{
 	float:right;
 	height: 90px;
-	margin-top: 1em;
+	margin-top: 1.2em;
 	width: 728px;
 }
 
 #buscador{
 	float:right;
-	margin-top: -8px;
 }
 
 #buscador input{
@@ -227,8 +224,17 @@ padding-top:1em;
 }
 
 #sidebar{
-	width: 336px;
+	padding: 1em 0 1em 1em;
+	width: 348px;
+	margin-top: 2em;
 }
+
+
+#social li{
+  display: block;
+  float: left;
+}
+
 
 .contenedor{
 	margin:0 auto 0 auto;
@@ -238,7 +244,7 @@ padding-top:1em;
 .contenedor h2{
 	line-height: 1.2em;
 	padding:0.5em 0 0 0;
-	font-size: 2em;
+	font-size: 2.2em;
 }
 
 .extracto img{
@@ -263,45 +269,70 @@ padding-top:1em;
 .seguir{
 	color:#424242;
 	font-size: 13px;
-	font-weight: 700;
-	text-transform: uppercase;
 }
 
 .extracto a:hover{
 	color:#3299bb;
 }
 
-.meta{
+.meta-titulo{
 	margin: 5px 15px 5px 0;
 	padding: 0.5em;
 	font-size: 13px;
 
 }
 
-.meta a{
+.meta-titulo a{
 	text-decoration: none;
 	color: #424242;
 }
 
-.meta a:hover{
+.meta-titulo a:hover{
 	color: #3299bb;
 }
 
-.meta img{
+.meta-titulo img{
 	width: 16px;
 	height:16px;
-	padding: 0;
+	margin: 4px 4px 4px 0;
 }
-.meta span{
+.meta-titulo span{
 	float: right;
 }
 
 
-#social li{
-  display: block;
-  float: left;
+.meta-social{
+	margin: 5px 15px 5px 0;
+	padding: 0.5em;
+	font-size: 13px;
+	height: 3em;
 }
 
+.meta-social a{
+	text-decoration: none;
+	color: #424242;
+}
+
+.meta-social a:hover{
+	color: #3299bb;
+}
+
+.meta-social img{
+	width: 16px;
+	height:16px;
+	padding: 0;
+}
+.meta-social span{
+	float: right;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.widget{
+	background-color: #eaeaea;
+	margin:1em 0;
+}
 
 
 
