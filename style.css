@@ -64,6 +64,7 @@ table {
 /* Ahora si */
 
 body{
+	border-top: 15px solid #3299bb;
 	color:#222;
 	font-family:'Open Sans', sans-serif;
 	font-size: 16px;
@@ -130,6 +131,16 @@ nav ul li a{
 	color:black;
 }
 
+nav ul li a:hover{
+	background-color: #3299bb;
+	color:white;
+	/*
+	-moz-box-shadow:    inset 0 0 7px #363636;
+   	-webkit-box-shadow: inset 0 0 7px #363636;
+   	box-shadow:         inset 0 0 7px #363636;
+   	*/
+}
+
 #adsense-header{
 	float:right;
 	height: 90px;
@@ -139,6 +150,20 @@ nav ul li a{
 
 #buscador{
 	float:right;
+	margin-top: -8px;
+}
+
+#buscador input{
+	background-image: url(img/buscar.png);
+	background-repeat: no-repeat;
+	background-position: 96% 50%;
+	border: solid 1px #eaeaea;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	padding: 0.6em;
+	text-transform: uppercase;
+	width: 170px;
 }
 
 #destacadas ul{
